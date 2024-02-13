@@ -30,7 +30,7 @@ function Nav() {
             }
             id="nav-menu"
           >
-            <ul className="nav__list">
+            <ul className="flex flex-col items-center gap-8">
               <li className="nav__item">
                 <Link
                   to="/"

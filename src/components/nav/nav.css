@@ -67,12 +67,12 @@
   }
 }
 
-.nav__list {
+/* .nav__list {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-}
+} */
 
 .nav__link {
   color: var(--text-color-light);
