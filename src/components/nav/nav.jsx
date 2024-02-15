@@ -29,7 +29,7 @@ function Nav() {
               <li className="nav__item">
                 <Link
                   to="/"
-                  className="nav__link"
+                  className="text-text-color-light font-medium uppercase text-xl hover:text-body-color"
                   onClick={() => setIsMenuVisible(false)}
                 >
                   Home
@@ -38,7 +38,7 @@ function Nav() {
               <li className="nav__item">
                 <Link
                   to="/about"
-                  className="nav__link"
+                  className="text-text-color-light font-medium uppercase text-xl hover:text-body-color"
                   onClick={() => setIsMenuVisible(false)}
                 >
                   About
@@ -47,7 +47,7 @@ function Nav() {
               <li className="nav__item">
                 <Link
                   to="/projects"
-                  className="nav__link"
+                  className="text-text-color-light font-medium uppercase text-xl hover:text-body-color"
                   onClick={() => setIsMenuVisible(false)}
                 >
                   Projects
@@ -56,7 +56,7 @@ function Nav() {
               <li className="nav__item">
                 <Link
                   to="/contact"
-                  className="nav__link"
+                  className="text-text-color-light font-medium uppercase text-xl hover:text-body-color"
                   onClick={() => setIsMenuVisible(false)}
                 >
                   Contact
