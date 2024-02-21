@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../../App.css";
-import "./nav.css";
+// import "./nav.css";
 
 function Nav() {
   const [isMenuVisible, setIsMenuVisible] = useState(false);
@@ -23,40 +23,41 @@ function Nav() {
         <div className="flex items-center">
           {/* links */}
           <ul
-            className={`flex items-center transition-all h-full flex-col fixed bottom-0 justify-center gap-20 w-full sm:text-base sm:z-auto sm:h-auto sm:w-auto sm:static sm:flex sm:flex-row
-  ${isMenuVisible ? "gap-10 text-2xl left-0 bg-body-color" : "gap-4 text-xl"}`}
+            className={`flex transition-all fixed flex-col w-full h-full bottom-0 items-center 
+            sm:z-auto sm:h-auto sm:w-auto sm:static sm:flex sm:flex-row
+${isMenuVisible ? "left-0 bg-body-color text-2xl gap-8 pt-24" : "gap-6 font-extrabold"}`}
           >
-            <li className="nav__item">
+            <li className="">
               <Link
                 to="/"
-                className="text-text-color-light font-medium uppercase text-lg hover:text-body-color"
+                className="text-text-color-light font-medium uppercase  hover:text-body-color"
                 onClick={() => setIsMenuVisible(false)}
               >
                 Home
               </Link>
             </li>
-            <li className="nav__item">
+            <li className="">
               <Link
                 to="/about"
-                className="text-text-color-light font-medium uppercase text-lg hover:text-body-color"
+                className="text-text-color-light font-medium uppercase  hover:text-body-color"
                 onClick={() => setIsMenuVisible(false)}
               >
                 About
               </Link>
             </li>
-            <li className="nav__item">
+            <li className="">
               <Link
                 to="/projects"
-                className="text-text-color-light font-medium uppercase text-lg hover:text-body-color"
+                className="text-text-color-light font-medium uppercase  hover:text-body-color"
                 onClick={() => setIsMenuVisible(false)}
               >
                 Projects
               </Link>
             </li>
-            <li className="nav__item">
+            <li className="">
               <Link
                 to="/contact"
-                className="text-text-color-light font-medium uppercase text-lg hover:text-body-color"
+                className="text-text-color-light font-medium uppercase  hover:text-body-color"
                 onClick={() => setIsMenuVisible(false)}
               >
                 Contact
