@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "../../App.css";
-// import "./nav.css";
 
 function Nav() {
   const [isMenuVisible, setIsMenuVisible] = useState(false);

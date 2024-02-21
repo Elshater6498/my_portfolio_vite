@@ -3,14 +3,14 @@ import "./home.css";
 
 function Home() {
   return (
-    <main className="main">
-      {/* ==================== HOME  */}
+    <main className="overflow-hidden">
       <section className="home" id="home">
         <div className="home__container container grid">
           <div className="home__data">
             <p className="home__description description">Hi, I am</p>
             <h1 className="home__title title">Mohamed Elshater</h1>
             <h3 className="home__subbtitle subtitle">Front end Developer</h3>
+            {/* CV button */}
             <div className="home__btns btns">
               <a
                 target="_blank"
@@ -20,6 +20,7 @@ function Home() {
                 Download CV
               </a>
             </div>
+            {/* social media */}
             <div className="home__social social">
               <a
                 href="https://github.com/Elshater6498"
