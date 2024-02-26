@@ -25,7 +25,7 @@ function About() {
           </button>
           <div className="flex gap-4 px-2">
             <a
-              href={"https://github.com/yousefomar724"}
+              href="https://github.com/Elshater6498"
               target="_blank"
               rel="noreferrer"
               className="text-xl text-text-color-light transition duration-300 hover:text-body-color"
@@ -33,7 +33,7 @@ function About() {
               <i className="bx bxl-github"></i>
             </a>
             <a
-              href={"https://www.linkedin.com/in/yousefomarmohamed/"}
+              href="https://www.linkedin.com/in/mohamed-mostafa-elshater-4727111a9/"
               target="_blank"
               rel="noreferrer"
               className="text-xl text-text-color-light transition duration-300 hover:text-body-color"
@@ -42,7 +42,7 @@ function About() {
             </a>
           </div>
         </div>
-        <div className="md:w-96">
+        <div className="md:w-72">
           <img className="rounded-md" src="/public/aboutMe.png" alt="" />
         </div>
       </div>

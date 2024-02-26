@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <div className='w-full text-center'>
-      <p className='text-xs'>&copy;2021 - Yousef</p>
+      <p className='text-xs'>&copy;2022 - elshater</p>
     </div>
   )
 }
