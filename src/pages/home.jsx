@@ -15,7 +15,7 @@ function Home() {
             <a
               target="_blank"
               href="https://drive.google.com/file/d/17hQnQsdriIDEhk3YA4RcG4DUv0MzKNEw/view?usp=drive_link"
-              className=" text-body-color cursor-pointer bg-button-color py-5 px-8 transition duration-200 hover:bg-button-color-alt "
+              className=" text-body-color cursor-pointer bg-button-color py-5 px-8 transition duration-200 hover:bg-button-color-alt rounded-md"
             >
               Download CV
             </a>
