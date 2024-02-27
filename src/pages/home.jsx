@@ -3,8 +3,7 @@ function Home() {
   return (
     <main className="overflow-hidden">
       <section
-        className="h-[calc(100vh-21.7px)] flex items-center justify-center"
-        id="home"
+        className="min-h-[calc(100vh-21.7px)] flex items-center justify-center"
       >
         <div className="">
           <div className="flex flex-col items-center justify-center gap-8">

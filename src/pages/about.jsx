@@ -1,10 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./about.css";
 
 function About() {
   return (
-    <section className="md:h-[calc(100vh-21.7px)] h-auto py-20 md:py-0 px-2 flex max-w-6xl mx-auto">
+    <section className="min-h-[calc(100vh-21.7px)] py-20 md:py-0 px-2 flex max-w-6xl mx-auto">
       <div className="flex md:flex-row flex-col-reverse justify-between items-center gap-8">
         <div className="flex-1 flex flex-col gap-2 text-lg">
           <h3 className="text-3xl">About me</h3>
