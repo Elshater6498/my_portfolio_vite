@@ -14,12 +14,12 @@ function Contact() {
   return (
     <section className="min-h-[calc(100vh-21.7px)] px-2 flex max-w-6xl mx-auto">
       <div className="flex items-center justify-center w-full mt-20 bg-blue-500">
-        <div className="contact__content">
-          <h2 className="contact__title title">Contact Me</h2>
-          <p className="contact__description description">
+        <div className="flex-1">
+          <h2 className="">Contact Me</h2>
+          <p className="contact__description ">
             I'd love to hear from you
           </p>
-          <p className="contact__description description">
+          <p className="contact__description ">
             Drop me an email and I will get back to you, or find me on social
             media.
           </p>
