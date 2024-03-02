@@ -12,75 +12,68 @@ function Contact() {
     formRef.current.reset();
   };
   return (
-    <section className="min-h-[calc(100vh-21.7px)] px-2 flex max-w-6xl mx-auto">
-      <div className="flex items-center justify-center w-full mt-20 bg-blue-500">
+    <section className="min-h-[calc(100vh-21.7px)] flex max-w-7xl mx-auto">
+      <div className="flex flex-wrap items-center justify-center w-full pt-20 gap-5 px-2 border">
         <div className="flex-1">
-          <h2 className="">Contact Me</h2>
-          <p className="contact__description ">
+          <h2 className="text-2xl">Contact Me</h2>
+          <p className="mb-5 text-xl text-text-color-light">
             I'd love to hear from you
           </p>
-          <p className="contact__description ">
+          <p className="mb-5 text-xl text-text-color-light">
             Drop me an email and I will get back to you, or find me on social
             media.
           </p>
-          <div className="social">
+          <div className="flex gap-4">
             <a
-              href={"https://github.com/yousefomar724"}
+              href="https://github.com/Elshater6498"
               target="_blank"
               rel="noreferrer"
-              className="home__social-link social-link"
+              className="text-xl text-text-color-light transition duration-300 hover:text-body-color"
             >
               <i className="bx bxl-github"></i>
             </a>
             <a
-              href={"https://www.linkedin.com/in/yousefomarmohamed/"}
+              href="https://www.linkedin.com/in/mohamed-mostafa-elshater-4727111a9/"
               target="_blank"
               rel="noreferrer"
-              className="home__social-link social-link"
+              className="text-xl text-text-color-light transition duration-300 hover:text-body-color"
             >
               <i className="bx bxl-linkedin"></i>
-            </a>
-            <a
-              href={"https://codepen.io/yousefomar724"}
-              target="_blank"
-              rel="noreferrer"
-              className="home__social-link social-link"
-            >
-              <i className="bx bxl-codepen"></i>
             </a>
           </div>
         </div>
         <form
-          className="contact__form"
+          className="flex flex-col gap-4 p-8 bg-[#333] rounded-md flex-1"
           action={FORM_ENDPOINT}
           onSubmit={(e) => handleSubmit(e)}
           method="POST"
           target="_blank"
           ref={formRef}
         >
-          <label htmlFor="name" className="contact__label">
+          <label htmlFor="name" className="flex flex-col gap-2">
             Name
             <input
               type="text"
               id="name"
               name="name"
-              className="contact__input"
+              className="rounded-md border-none outline-none p-2 bg-[#222] text-[#fff] focus:outline-1 focus:outline-first-color"
               required
             />
           </label>
-          <label htmlFor="email" className="contact__label">
+          <label htmlFor="email" className="flex flex-col gap-2">
             Email
             <input
               type="email"
               id="email"
               name="email"
-              className="contact__input"
+              className="rounded-md border-none outline-none p-2 bg-[#222] text-[#fff] focus:outline-1 focus:outline-first-color"
               required
             />
           </label>
-          <label htmlFor="message" className="contact__label">
+          <label htmlFor="message" className="flex flex-col gap-2">
             Message
             <textarea
+              className="rounded-md border-none outline-none p-2 bg-[#222] text-[#fff] focus:outline-1 focus:outline-first-color "
               name="message"
               id="message"
               cols="30"
@@ -89,9 +82,13 @@ function Contact() {
             ></textarea>
           </label>
           {isSubmitted ? (
-            <h4 className="contact__button button">Thank You.</h4>
+            <h4 className="text-body-color cursor-pointer bg-button-color py-5 px-8 transition duration-200 hover:bg-button-color-alt rounded-md w-fit">
+              Thank You.
+            </h4>
           ) : (
-            <button className="contact__button button">Send Message</button>
+            <button className="text-body-color cursor-pointer bg-button-color py-5 px-8 transition duration-200 hover:bg-button-color-alt rounded-md w-fit">
+              Send Message
+            </button>
           )}
         </form>
       </div>
