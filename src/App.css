@@ -148,7 +148,7 @@ button {
   background-color: var(--first-color);
 }
 
-/*=============== BUTTONS */
+/*======= BUTTONS =======*/
 .button {
   display: inline-block;
   background-color: var(--button-color);

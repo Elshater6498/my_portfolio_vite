@@ -34,7 +34,7 @@ function Projects() {
   ];
 
   return (
-    <section className="min-h-[calc(100vh-21.7px)] flex items-center justify-center gap-10 flex-wrap px-2 py-20">
+    <section className="min-h-[calc(100vh-21.7px)] flex items-center justify-center gap-10 flex-wrap px-2 py-20 text-body-color">
       {projects.map((item) => (
         <div
           className="bg-[#333] rounded-full p-12 w-[350px] h-[350px] overflow-hidden"

@@ -6,7 +6,7 @@ function About() {
     <section className="min-h-[calc(100vh-21.7px)] py-20 md:py-0 px-2 flex max-w-6xl mx-auto">
       <div className="flex md:flex-row flex-col-reverse justify-between items-center gap-8">
         <div className="flex-1 flex flex-col gap-2 text-lg">
-          <h3 className="text-3xl">About me</h3>
+          <h3 className="text-3xl text-body-color">About me</h3>
           <p className="text-text-color-light mb-1.5 leading-7">
             I am <span className="text-first-color">Mohamed</span> ,A
             self-tought software engineer focusing on Front-End web and{" "}

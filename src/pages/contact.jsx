@@ -1,9 +1,8 @@
 import React, { useState, useRef } from "react";
-import "./contact.css";
 
 function Contact() {
-  const FORM_ENDPOINT =
-    "https://public.herotofu.com/v1/779eaab0-55c8-11ec-85ac-d56a41b9ab46";
+  // const FORM_ENDPOINT =
+  //   "https://public.herotofu.com/v1/779eaab0-55c8-11ec-85ac-d56a41b9ab46";
   const [isSubmitted, setIsSubmitted] = useState(false);
   const formRef = useRef();
 
@@ -13,9 +12,9 @@ function Contact() {
   };
   return (
     <section className="min-h-[calc(100vh-21.7px)] flex max-w-7xl mx-auto">
-      <div className="flex flex-wrap items-center justify-center w-full pt-20 gap-5 px-2 border">
+      <div className="flex flex-wrap items-center justify-center w-full pt-20 gap-5 px-2">
         <div className="flex-1">
-          <h2 className="text-2xl">Contact Me</h2>
+          <h2 className="text-2xl text-body-color">Contact Me</h2>
           <p className="mb-5 text-xl text-text-color-light">
             I'd love to hear from you
           </p>
@@ -44,13 +43,13 @@ function Contact() {
         </div>
         <form
           className="flex flex-col gap-4 p-8 bg-[#333] rounded-md flex-1"
-          action={FORM_ENDPOINT}
-          onSubmit={(e) => handleSubmit(e)}
           method="POST"
+          // action={FORM_ENDPOINT}
+          onSubmit={(e) => handleSubmit(e)}
           target="_blank"
           ref={formRef}
         >
-          <label htmlFor="name" className="flex flex-col gap-2">
+          <label htmlFor="name" className="flex flex-col gap-2 text-body-color">
             Name
             <input
               type="text"
@@ -60,7 +59,7 @@ function Contact() {
               required
             />
           </label>
-          <label htmlFor="email" className="flex flex-col gap-2">
+          <label htmlFor="email" className="flex flex-col gap-2 text-body-color">
             Email
             <input
               type="email"
@@ -70,7 +69,7 @@ function Contact() {
               required
             />
           </label>
-          <label htmlFor="message" className="flex flex-col gap-2">
+          <label htmlFor="message" className="flex flex-col gap-2 text-body-color">
             Message
             <textarea
               className="rounded-md border-none outline-none p-2 bg-[#222] text-[#fff] focus:outline-1 focus:outline-first-color "

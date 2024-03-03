@@ -6,7 +6,7 @@ function Home() {
         className="min-h-[calc(100vh-21.7px)] flex items-center justify-center"
       >
         <div className="">
-          <div className="flex flex-col items-center justify-center gap-8">
+          <div className="flex flex-col items-center justify-center gap-8 text-body-color">
             <p className="">Hi, I am</p>
             <h1 className="text-4xl">Mohamed Elshater</h1>
             <h3 className="text-first-color">Front end Developer</h3>
