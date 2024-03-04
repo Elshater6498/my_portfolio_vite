@@ -3,32 +3,67 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Recipe Maker",
+      title: "Alef menu | ألـــف منيو",
       details:
-        "A website provide a wide range of recipes categorized by difficulty and time, Just put the ingrediemts that you have and he will suggest different recipes you can choose from.",
-      tags: ["#React", "#Redux", "#Firebase", "#Bootstrap"],
+        "Sass project (07/2023 - Present) - My role was to build the landing page with Next.js for the SEO, Performance, and social media sharing, the e-menu, and control panels, and wrap things up from the front end part.",
+      tags: [
+        "React",
+        "vite",
+        "Firebase",
+        "Tailwind CSS",
+        "Fastapi",
+        "NodeJS",
+        "Next.js",
+      ],
       btns: [
         {
-          href: "https://github.com/AmanySirajAl-Din/Wasfity-RecipeMaker",
+          href: "https://github.com/Elshater6498/juicy-restaurant",
           title: "Github",
           icon: <i class="bx bxl-github"></i>,
         },
-        { href: "/#", title: "Preview", icon: <i class="bx bx-exit"></i> },
+        {
+          href: "https://restaurant.alefmenu.com/",
+          title: "Preview",
+          icon: <i class="bx bx-exit"></i>,
+        },
       ],
     },
     {
       id: 2,
-      title: "AXW Movies",
+      title: "Safary landing page",
       details:
-        "A website provide a wide range of movies categorized by release date, IMDB rating, and movie type. Also provide watching online and download.",
-      tags: ["#React", "#Redux", "#Movies Api", "#Native CSS"],
+        "My role was to build the landing page with React.js for the SEO, Performance, and social media sharing, and control panels, and wrap things up from the front end part.",
+      tags: ["React", "vite", "Tailwind CSS", "Fastapi"],
       btns: [
         {
-          href: "https://github.com/yousefomar724/movies",
+          href: "https://github.com/Elshater6498/Safery",
           title: "Github",
           icon: <i class="bx bxl-github"></i>,
         },
-        { href: "/#", title: "Preview", icon: <i class="bx bx-exit"></i> },
+        {
+          href: "https://safery.vercel.app/",
+          title: "Preview",
+          icon: <i class="bx bx-exit"></i>,
+        },
+      ],
+    },
+    {
+      id: 3,
+      title: "Movies website",
+      details:
+        "My role was to build the landing page The site is about adding a series of films and watching them, and custom films can be added to the list of favorite films.",
+      tags: ["Html", "Tailwind CSS", "Java Scrip"],
+      btns: [
+        {
+          href: "https://github.com/Elshater6498/movie-tailwind",
+          title: "Github",
+          icon: <i class="bx bxl-github"></i>,
+        },
+        {
+          href: "https://movie-tailwind-topaz.vercel.app/",
+          title: "Preview",
+          icon: <i class="bx bx-exit"></i>,
+        },
       ],
     },
   ];
@@ -42,7 +77,7 @@ function Projects() {
         >
           <div className="flex flex-col justify-between items-center gap-2 h-full">
             <div className="flex flex-col items-center text-center">
-              <h4 className="mb-2 text-2xl">{item.title}</h4>
+              <h4 className="mb-2 text-2xl border-b whitespace-nowrap pb-2 px-4">{item.title}</h4>
               <p className="text-sm">{item.details}</p>
             </div>
             <div className="flex border-t pt-2 w-full justify-center flex-wrap">
