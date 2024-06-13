@@ -1,3 +1,6 @@
+import { BsGithub } from "react-icons/bs";
+import { IoMdExit } from "react-icons/io";
+
 export const projects = [
   {
     id: 1,
@@ -17,12 +20,12 @@ export const projects = [
       {
         href: "https://github.com/Elshater6498/juicy-restaurant",
         title: "Github",
-        icon: <i class="bx bxl-github"></i>,
+        icon: <BsGithub />,
       },
       {
         href: "https://restaurant.alefmenu.com/",
         title: "Preview",
-        icon: <i class="bx bx-exit"></i>,
+        icon: <IoMdExit />,
       },
     ],
   },
@@ -36,12 +39,12 @@ export const projects = [
       {
         href: "https://github.com/Elshater6498/Safery",
         title: "Github",
-        icon: <i class="bx bxl-github"></i>,
+        icon: <BsGithub />,
       },
       {
         href: "https://safery.vercel.app/",
         title: "Preview",
-        icon: <i class="bx bx-exit"></i>,
+        icon: <IoMdExit />,
       },
     ],
   },
@@ -55,12 +58,12 @@ export const projects = [
       {
         href: "https://github.com/Elshater6498/movie-tailwind",
         title: "Github",
-        icon: <i class="bx bxl-github"></i>,
+        icon: <BsGithub />,
       },
       {
         href: "https://movie-tailwind-topaz.vercel.app/",
         title: "Preview",
-        icon: <i class="bx bx-exit"></i>,
+        icon: <IoMdExit />,
       },
     ],
   },
