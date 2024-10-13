@@ -49,7 +49,7 @@ export const projects = [
     ],
   },
   {
-    id: 4,
+    id: 3,
     title: "jouf Media website",
     details:
       "My role was to build the landing page, and the control panel, The site is about adding a series of courses and news of eljouf area in Saudi Arabia , and publish the activities of the area.",
@@ -68,7 +68,7 @@ export const projects = [
     ],
   },
   {
-    id: 5,
+    id: 4,
     title: "Movies website",
     details:
       "My role was to build the landing page The site is about adding a series of films and watching them, and custom films can be added to the list of favorite films.",
