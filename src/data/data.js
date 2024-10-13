@@ -49,7 +49,26 @@ export const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
+    title: "jouf Media website",
+    details:
+      "My role was to build the landing page, and the control panel, The site is about adding a series of courses and news of eljouf area in Saudi Arabia , and publish the activities of the area.",
+    tags: ["reactjs", "Tailwind CSS", "type Scrip", "Fastapi", "react query"],
+    btns: [
+      {
+        href: "https://github.com/yousefomar724/jouf-media",
+        title: "Github",
+        icon: <BsGithub />,
+      },
+      {
+        href: "https://www.jma.sa/",
+        title: "Preview",
+        icon: <IoMdExit />,
+      },
+    ],
+  },
+  {
+    id: 5,
     title: "Movies website",
     details:
       "My role was to build the landing page The site is about adding a series of films and watching them, and custom films can be added to the list of favorite films.",
