@@ -20,12 +20,12 @@ export const projects = [
       {
         href: "https://github.com/Elshater6498/juicy-restaurant",
         title: "Github",
-        icon: <BsGithub />,
+        icon: BsGithub,
       },
       {
         href: "https://restaurant.alefmenu.com/",
         title: "Preview",
-        icon: <IoMdExit />,
+        icon: IoMdExit,
       },
     ],
   },
@@ -39,12 +39,12 @@ export const projects = [
       {
         href: "https://github.com/Elshater6498/Safery",
         title: "Github",
-        icon: <BsGithub />,
+        icon: BsGithub,
       },
       {
         href: "https://safery.vercel.app/",
         title: "Preview",
-        icon: <IoMdExit />,
+        icon: IoMdExit,
       },
     ],
   },
@@ -58,12 +58,12 @@ export const projects = [
       {
         href: "https://github.com/yousefomar724/jouf-media",
         title: "Github",
-        icon: <BsGithub />,
+        icon: BsGithub,
       },
       {
         href: "https://www.jma.sa/",
         title: "Preview",
-        icon: <IoMdExit />,
+        icon: IoMdExit,
       },
     ],
   },
@@ -77,12 +77,12 @@ export const projects = [
       {
         href: "https://github.com/Elshater6498/movie-tailwind",
         title: "Github",
-        icon: <BsGithub />,
+        icon: BsGithub,
       },
       {
         href: "https://movie-tailwind-topaz.vercel.app/",
         title: "Preview",
-        icon: <IoMdExit />,
+        icon: IoMdExit,
       },
     ],
   },
